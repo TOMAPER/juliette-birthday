@@ -38,7 +38,7 @@ export default function Step2ScratchFake({ onNext }) {
               onReveal={handleReveal}
             >
               <img
-                src="/images/tom.jpg"
+                src={`${import.meta.env.BASE_URL}images/tom.jpg`}
                 alt="Surprise!"
                 className="w-full h-full object-cover"
               />
@@ -74,7 +74,7 @@ export default function Step2ScratchFake({ onNext }) {
               }}
             >
               <img
-                src="/images/tom.jpg"
+                src={`${import.meta.env.BASE_URL}images/tom.jpg`}
                 alt="Surprise!"
                 className="w-full object-cover"
               />

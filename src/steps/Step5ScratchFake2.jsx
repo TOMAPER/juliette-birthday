@@ -40,7 +40,7 @@ export default function Step5ScratchFake2({ onNext }) {
               onReveal={handleReveal}
             >
               <img
-                src="/images/chat.jpg"
+                src={`${import.meta.env.BASE_URL}images/chat.jpg`}
                 alt="Un chat!"
                 className="w-full h-full object-cover"
               />
@@ -76,7 +76,7 @@ export default function Step5ScratchFake2({ onNext }) {
               }}
             >
               <img
-                src="/images/chat.jpg"
+                src={`${import.meta.env.BASE_URL}images/chat.jpg`}
                 alt="Un chat!"
                 className="w-full object-cover"
               />

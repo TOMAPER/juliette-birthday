@@ -4,7 +4,7 @@ import PigMascot from '../components/PigMascot';
 
 // Generate face image paths
 const FACE_COUNT = 29;
-const faceImages = Array.from({ length: FACE_COUNT }, (_, i) => `/images/faces/face${i + 1}.png`);
+const faceImages = Array.from({ length: FACE_COUNT }, (_, i) => `${import.meta.env.BASE_URL}images/faces/face${i + 1}.jpg`);
 
 // Generate random positions for floating faces
 function generateFacePositions(count) {
